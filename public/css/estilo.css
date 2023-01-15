@@ -1,0 +1,66 @@
+#header{
+    background-color: green;align-self: start;
+    
+}
+
+
+.h2_header{
+    color: whitesmoke;
+}
+#barra_header{
+    color: whitesmoke;
+    text-shadow: 1px 2px black;
+    padding: 0.5rem;
+    
+}
+
+section{
+     
+    color: black;
+}
+
+footer{
+    background-color: green;
+    color: whitesmoke;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
+h1{
+    margin: 2px;
+}
+
+.bloco{
+    padding: 1rem;
+    /*background-color: rgba(0, 224, 44, 0.3); */
+    margin-right: 2px;
+    box-shadow: 2px 2px 3px 1px lightslategray;
+}
+
+#imagem_capa{
+    width: auto;
+    height: auto;
+}
+
+.fundo{
+    background-color: rgba(0, 224, 44, 0.3);
+}
+
+#parceiros-table{
+    padding: 1rem;
+    background-color: whitesmoke;
+    margin-right: 2px;
+    box-shadow: 2px 2px 3px 1px lightslategray;
+}
+
+#link{
+    color: black;
+}
+
+#link-header{
+    color: whitesmoke;
+    
+}
