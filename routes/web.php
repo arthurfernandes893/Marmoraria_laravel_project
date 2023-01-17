@@ -20,6 +20,6 @@ Route::get('/', [EventController::class,'index']);
 
 Route::get('/parceiros', [EventController::class,'parceiros']);
 
-Route::get('/orcamentos', [EventController::class,'orcamentos']);
+Route::post('/orcamentos', [EventController::class,'orcamentos']);
 
-Route::post('/postform',[EventController::class,'mostrarresultados']);
+Route::post('/orcamentos',[EventController::class,'postform']);

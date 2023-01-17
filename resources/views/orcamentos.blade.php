@@ -2,10 +2,14 @@
 
 @section('content')
     <section class="bloco bg-success bg-opacity-25">
-            
+        @if(session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+         @endif  
         <div class="p-1 bg-success-subtle">
         <br><br>
-            <form class="form-control-lg p-5" action="/postform" method="POST">
+            <form class="form-control-lg p-5" action="orcamentos" method="POST">
             @csrf
                 <h3>Seu Contato:</h3>
                 <label for="Nome">Nome</label>

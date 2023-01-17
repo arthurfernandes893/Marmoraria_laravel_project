@@ -31,13 +31,7 @@ class EventController extends Controller
        $orcamento->espessura = $request->espessura;
 
        $orcamento->save();
-
-       $orcamentos = Orcamento::all();
-       return view('postform');
+       return redirect('orcamentos')->with('status', 'Blog Post Form Data Has Been inserted');
     }
-
-    public function mostrarresultados(){
-       $orcamentos = Orcamento::all();
-       return view('postform',['Orcamento' => $orcamentos]);
-    }
+    
 }
