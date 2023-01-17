@@ -5,7 +5,8 @@
             
         <div class="p-1 bg-success-subtle">
         <br><br>
-            <form class="form-control-lg p-5" action="index.php" method="POST">
+            <form class="form-control-lg p-5" action="/postform" method="POST">
+            @csrf
                 <h3>Seu Contato:</h3>
                 <label for="Nome">Nome</label>
                 <input class="form-control" type="text" id="Nome" name="Nome" placeholder="Quem é você?">

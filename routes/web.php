@@ -22,3 +22,4 @@ Route::get('/parceiros', [EventController::class,'parceiros']);
 
 Route::get('/orcamentos', [EventController::class,'orcamentos']);
 
+Route::post('/postform',[EventController::class,'mostrarresultados']);

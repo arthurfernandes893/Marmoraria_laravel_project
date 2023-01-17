@@ -3,6 +3,7 @@
 @section('content')
         
     <!-----------------------carrossel comeco-------------------------------------->
+    
     <section>
             <div id="carouselExampleDark" class="carousel carousel-dark slide bg-green" data-bs-ride="carousel">
                 <div class="carousel-indicators">
